@@ -1,23 +1,4 @@
 { "commands": [
-{ "hdr": "710", "rax": "718", "dbg": true, "cmd": {"22": "B921"}, "freq": 1,
-  "signals": [
-    {"id": "HECTOR_GWM_ODO", "path": "Trips", "fmt": { "len": 24, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
-  ]},
-{ "hdr": "710", "rax": "718", "dbg": true, "cmd": {"22": "D001"}, "freq": 4,
-  "signals": [
-    {"id": "HECTOR_GWM_STATUS", "path": "Vehicle.Internal", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle Gateway Status"}
-  ]},
-{ "hdr": "7DF", "rax": "7ED", "dbg": true, "cmd": {"01": "0C"}, "freq": 0.25,
-  "signals": [
-    {"id": "HECTOR_RPM", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "mul": 0.25, "unit": "rpm" }, "name": "Engine RPM"}
-  ]},
-{ "hdr": "7DF", "rax": "7ED", "dbg": true, "cmd": {"01": "0D"}, "freq": 0.25,
-  "signals": [
-    {"id": "HECTOR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
-  ]},
-{ "hdr": "7DF", "rax": "7ED", "dbg": true, "cmd": {"01": "46"}, "freq": 0.25,
-  "signals": [
-    {"id": "HECTOR_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
-  ]}
+
 ]
 }
